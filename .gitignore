@@ -1,0 +1,231 @@
+
+# ============================================================
+# ROS 2 / COLCON
+# ============================================================
+
+# Colcon build artifacts
+build/
+install/
+log/
+
+# Colcon metadata
+.colcon/
+.colcon_install_layout
+
+# ROS 2 generated files
+*.db3
+*.mcap
+*.bag
+*.bag.active
+
+# ROS 2 configuration and runtime
+ros2_ws/src/**/params/*.yaml~
+
+# ============================================================
+# CMAKE / C++
+# ============================================================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_deps/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# CMake generated directories
+cmake-build-*/
+CMakeUserPresets.json
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python testing
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+
+# ============================================================
+# ROS 2 PYTHON GENERATED FILES
+# ============================================================
+
+*.pyc
+setup.py.bak
+*.egg-info/
+
+# ============================================================
+# IDEs / EDITORS
+# ============================================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+
+# ============================================================
+# ROS 2 / ROBOTICS TOOLS
+# ============================================================
+
+# RViz
+*.rviz.bak
+
+# Gazebo / Ignition simulation logs
+*.log
+*.log.*
+
+# Gazebo generated data
+.gazebo/
+.ignition/
+
+# ROS 2 temporary files
+*.tmp
+*.temp
+
+# ============================================================
+# LOGS / DEBUG
+# ============================================================
+
+logs/
+*.log
+debug/
+*.stackdump
+core
+core.*
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================================================
+# ENVIRONMENT / SECRETS
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.yaml
+secrets.yml
+
+# ============================================================
+# DOCUMENTATION / GENERATED OUTPUT
+# ============================================================
+
+site/
+public/build/
+docs/_build/
+*.pdf~
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# ============================================================
+# JUPYTER
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+
+*.bak
+*.orig
+*.rej
+*.old
+*.cache
