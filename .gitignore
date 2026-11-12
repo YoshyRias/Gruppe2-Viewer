@@ -229,3 +229,10 @@ docs/_build/
 *.rej
 *.old
 *.cache
+
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+coverage/
